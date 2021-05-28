@@ -1,9 +1,13 @@
 /* content */
 #content {
   margin: auto;
-  background: url("assets/restaurant.jpg") center center/cover no-repeat;
+  background: linear-gradient(
+      rgba(76, 207, 157, 0.61),
+      rgba(29, 18, 182, 0.062)
+    ),
+    url("assets/restaurant.jpg") center center/cover no-repeat;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 /* nav */
@@ -11,4 +15,70 @@
   display: flex;
   justify-content: center;
   font-size: 25px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Home */
+.main-div {
+  text-align: center;
+  color: #fff;
+  margin-top: 70px;
+  height: 80vh;
+}
+
+.main-heading {
+  font-size: 40px;
+  text-align: center;
+  background-color: blanchedalmond;
+  color: blue;
+  width: 50%;
+  border-radius: 40px 40px 0 0;
+  margin: auto;
+}
+
+.main-text {
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  background-color: black;
+  width: 60%;
+  margin: auto;
+  border-radius: 40px 40px 0 0;
+}
+
+.block {
+  background-color: burlywood;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 0px 0 40px 40px;
+}
+
+.left {
+  font-size: 20px;
+  font-style: italic;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+
+.quotes {
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+
+.chef-img {
+  width: 200px;
+  border-radius: 30px 0 30px 0;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.text-block {
+  color: black;
+  font-weight: 800;
 }

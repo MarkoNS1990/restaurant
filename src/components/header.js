@@ -1,8 +1,9 @@
 const load = (() =>{
  const content =  document.getElementById('content')
+ 
+ const nav = document.createElement("div")
   
-  
-   content.innerHTML = `<nav class="my-nav">
+   nav.innerHTML = `<nav class="my-nav">
    <ul class="nav">
    <li class="nav-item">
      <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -16,4 +17,5 @@ const load = (() =>{
    
  </ul>
  </nav>`
+ content.appendChild(nav)
 })()

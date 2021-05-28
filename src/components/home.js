@@ -1,7 +1,7 @@
 const home = (()=>{
     const content = document.querySelector("#content");
     const main = document.createElement('div')
-    main.setAttribute('class','main-div')
+    main.setAttribute('class','home-div')
     
     main.innerHTML=`<h1 class='main-heading'>Welcome to La Casa Del Marko</h1>
     <p class='main-text'>Come and try the best food in the world!</p>

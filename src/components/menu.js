@@ -1,10 +1,10 @@
-const menu = (() =>{
-    const content = document.querySelector('#content')
+const menu = (() => {
+  const content = document.querySelector('#content');
 
-    const menuDiv = document.createElement('div')
-    menuDiv.setAttribute('class','menu-div')
+  const menuDiv = document.createElement('div');
+  menuDiv.setAttribute('class', 'menu-div');
 
-    menuDiv.innerHTML = `<h1 class='main-heading'>Try our specialites!</h1>
+  menuDiv.innerHTML = `<h1 class='main-heading'>Try our specialites!</h1>
     <p class='main-text'>Come and try the best food in the world!</p>
     <div class='block-menu'>
         <div class='row menu-row'>
@@ -44,10 +44,9 @@ const menu = (() =>{
         
         
         
-    </div>`
+    </div>`;
 
-    content.appendChild(menuDiv)
+  content.appendChild(menuDiv);
+})();
 
-})()
-
-export {menu}
+export default { menu };

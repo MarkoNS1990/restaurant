@@ -1,10 +1,10 @@
-const contact = (() =>{
-    const content = document.querySelector('#content')
+const contact = (() => {
+  const content = document.querySelector('#content');
 
-    const contactDiv = document.createElement('div')
-    contactDiv.setAttribute('class','contact-div')
+  const contactDiv = document.createElement('div');
+  contactDiv.setAttribute('class', 'contact-div');
 
-    contactDiv.innerHTML = `<h1 class='main-heading'>Contact us!</h1>
+  contactDiv.innerHTML = `<h1 class='main-heading'>Contact us!</h1>
     <p class='main-text'>Call us or reach us via email!</p>
     <div class='block-contact'>
         
@@ -16,10 +16,9 @@ const contact = (() =>{
             <p class='contact-text'>Email: mail@mail.com</p>
             <p class='contact-text'>Phone: (123) 456-789</p>
         </div>
-        `
+        `;
 
-    content.appendChild(contactDiv)
+  content.appendChild(contactDiv);
+})();
 
-})()
-
-export {contact}
+export default { contact };

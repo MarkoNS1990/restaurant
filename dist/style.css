@@ -132,6 +132,29 @@
   border-radius: 0px 0 40px 40px;
 }
 
+/* contact */
+.contact-text {
+  color: rgb(29, 28, 28);
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.block-contact {
+  background-color: burlywood;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 0px 0 40px 40px;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
 /* footer */
 .my-footer {
   background-color: black;

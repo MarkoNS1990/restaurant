@@ -12,21 +12,32 @@ const menuDiv = document.querySelector('.menu-div');
 const contactDiv = document.querySelector('.contact-div');
 // Show only home page
 linkHome.addEventListener('click', () => {
-  homeDiv.style.display = 'block';
-  menuDiv.style.display = 'none';
-  contactDiv.style.display = 'none';
+  setDisplayBlock(homeDiv)
+  setDisplayNone(menuDiv)
+  setDisplayNone(contactDiv)
 });
 
 // Show only menu page
 linkMenu.addEventListener('click', () => {
-  homeDiv.style.display = 'none';
-  menuDiv.style.display = 'block';
-  contactDiv.style.display = 'none';
+  setDisplayNone(homeDiv)
+  setDisplayBlock(menuDiv)
+  setDisplayNone(contactDiv)
 });
 
 // Show only contact page
 linkContact.addEventListener('click', () => {
-  homeDiv.style.display = 'none';
-  menuDiv.style.display = 'none';
-  contactDiv.style.display = 'block';
+  setDisplayNone(homeDiv)
+  setDisplayNone(menuDiv)
+  setDisplayBlock(contactDiv)
+  
 });
+
+// Sets display - none for passed element
+const setDisplayNone = (el) =>{
+    el.style.display = 'none'
+}
+
+// Sets display - block for passed element
+const setDisplayBlock = (el) =>{
+    el.style.display = 'block'
+}

@@ -42,7 +42,7 @@ Contributions, issues, and feature requests are welcome!
 
 If you want to contribute, you can clone this project or fork it.
 
-If you found an issue, feel free to check the [issues page](https://github.com/iliebabcenco/my-telegram-bot/issues).
+If you found an issue, feel free to check the [issues page](https://github.com/MarkoNS1990/restaurant/issues).
 
 ## Show your support
 
